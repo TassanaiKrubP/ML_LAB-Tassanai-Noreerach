@@ -1,0 +1,94 @@
+name,team,age,height_cm,career_wins,career_podiums,career_points,pole_positions,championships,fastest_laps
+Lewis Hamilton,Ferrari,40.0,174.0,105.0,202,4862,104,7,67
+Max Verstappen,Red Bull,28.0,181.0,65.0,116,3220,44,4,34
+Fernando Alonso,Aston Martin,44.0,171.0,32.0,106,2340,22,2,26
+Sebastian Vettel,Retired,42.0,175.0,53.0,122,3098,57,4,38
+Charles Leclerc,Ferrari,28.0,180.0,8.0,44,1442,27,0,11
+Lando Norris,Mercedes,26.0,170.0,7.0,40,1130,12,0,12
+George Russell,Mercedes,27.0,185.0,4.0,20,712,4,0,8
+Carlos Sainz,Williams,42.0,178.0,4.0,27,1290,6,0,5
+Sergio Perez,Retired,35.0,173.0,6.0,39,1642,3,0,11
+Valtteri Bottas,Ferrari,36.0,173.0,10.0,67,1797,20,0,19
+Oscar Piastri,McLaren,24.0,178.0,6.0,18,522,3,0,4
+Daniel Ricciardo,Retired,36.0,175.0,8.0,32,1329,3,0,16
+Kimi Raikkonen,Retired,46.0,175.0,21.0,103,1873,18,1,46
+Nico Rosberg,Retired,40.0,178.0,23.0,57,1594,30,1,20
+Michael Schumacher,Retired,56.0,174.0,91.0,155,1566,68,7,77
+Pierre Gasly,Alpine,29.0,177.0,6.0,4,468,0,0,3
+Esteban Ocon,Haas,29.0,186.0,1.0,4,447,0,0,1
+Alex Albon,Williams,29.0,186.0,0.0,2,268,0,0,0
+Yuki Tsunoda,Red Bull,42.0,159.0,0.0,0,152,0,0,1
+Lance Stroll,Aston Martin,27.0,182.0,0.0,3,292,1,0,0
+Nico Hulkenberg,Sauber,38.0,184.0,0.0,0,571,1,0,2
+Kevin Magnussen,Retired,33.0,174.0,0.0,1,209,0,0,2
+Jenson Button,Retired,45.0,182.0,15.0,50,1235,8,1,8
+Felipe Massa,Retired,44.0,166.0,11.0,41,1167,16,0,15
+Mark Webber,Retired,49.0,184.0,9.0,42,1047,13,0,19
+David Coulthard,Retired,54.0,182.0,13.0,62,535,12,0,18
+Rubens Barrichello,Retired,53.0,172.0,11.0,68,658,14,0,17
+Franco Colapinto,Alpine,22.0,170.0,0.0,0,5,0,0,0
+Liam Lawson,Racing Bulls,23.0,174.0,0.0,0,10,0,0,0
+Gabriel Bortoleto,Sauber,21.0,173.0,0.0,0,0,0,0,0
+Ayrton Senna,Retired,34.0,175.0,41.0,80,614,65,3,19
+Alain Prost,Retired,70.0,165.0,51.0,106,798,33,4,41
+Nelson Piquet,Retired,72.0,175.0,23.0,60,485,24,3,23
+Niki Lauda,Retired,70.0,177.0,25.0,54,420,24,3,24
+Jackie Stewart,Retired,86.0,175.0,27.0,43,360,17,3,15
+Jim Clark,Retired,32.0,168.0,25.0,32,274,33,2,28
+Juan Manuel Fangio,Unknown,84.0,175.0,24.0,35,277,29,5,23
+Jack Brabham,Retired,88.0,173.0,14.0,31,261,13,3,12
+Stirling Moss,Retired,42.0,170.0,16.0,24,186,16,0,19
+Graham Hill,Retired,46.0,178.0,14.0,36,289,13,2,10
+Mika Hakkinen,Retired,57.0,175.0,20.0,51,420,26,2,25
+Damon Hill,Retired,65.0,182.0,22.0,42,360,20,1,19
+Jacques Villeneuve,Retired,54.0,175.0,11.0,23,235,13,1,9
+Gerhard Berger,Retired,66.0,180.0,10.0,48,385,12,0,21
+Nigel Mansell,Retired,72.0,180.0,31.0,59,482,32,1,30
+Keke Rosberg,Retired,77.0,177.0,5.0,17,159,5,1,3
+Emerson Fittipaldi,Retired,79.0,175.0,14.0,35,281,6,2,6
+Mario Andretti,Retired,85.0,168.0,12.0,19,180,18,1,10
+Ronnie Peterson,Retired,34.0,178.0,10.0,26,206,14,0,9
+Carlos Reutemann,Retired,79.0,180.0,12.0,45,310,6,0,6
+Jody Scheckter,Unknown,75.0,175.0,10.0,33,255,3,1,5
+Denny Hulme,Retired,56.0,178.0,8.0,33,248,1,1,9
+Jochen Rindt,Retired,28.0,178.0,6.0,13,109,10,1,3
+John Surtees,Retired,83.0,175.0,6.0,24,180,8,1,10
+Phil Hill,Retired,81.0,175.0,3.0,16,98,6,1,6
+Bruce McLaren,Retired,32.0,173.0,4.0,27,196,0,0,3
+Clay Regazzoni,Retired,42.0,175.0,5.0,28,212,5,0,8
+Jacky Ickx,Retired,80.0,173.0,8.0,25,181,13,0,14
+Riccardo Patrese,Retired,71.0,175.0,6.0,37,281,8,0,13
+Michele Alboreto,Retired,44.0,168.0,5.0,23,186,2,0,5
+Rene Arnoux,Retired,77.0,168.0,7.0,22,181,18,0,12
+Alan Jones,Retired,79.0,178.0,12.0,24,199,6,1,13
+Gilles Villeneuve,Retired,32.0,168.0,6.0,13,101,2,0,8
+Elio de Angelis,Retired,28.0,178.0,2.0,9,122,3,0,0
+Patrick Depailler,Retired,42.0,173.0,2.0,19,141,1,0,4
+Jean Alesi,Retired,61.0,170.0,1.0,32,241,2,0,4
+Heinz-Harald Frentzen,Retired,42.0,180.0,3.0,18,174,2,0,6
+Eddie Irvine,Retired,60.0,180.0,4.0,26,191,0,0,1
+Ralf Schumacher,Retired,50.0,178.0,6.0,27,329,6,0,8
+Juan Pablo Montoya,Retired,50.0,168.0,7.0,30,307,13,0,12
+Giancarlo Fisichella,Retired,52.0,172.0,3.0,19,275,4,0,2
+Robert Kubica,Retired,41.0,184.0,1.0,12,283,1,0,1
+Sergio Marchionne,Retired,44.0,175.0,0.0,0,0,0,0,0
+Romain Grosjean,Retired,39.0,180.0,0.0,10,391,0,0,1
+Nick Heidfeld,Retired,48.0,165.0,0.0,13,259,1,0,2
+Jarno Trulli,Unknown,51.0,175.0,1.0,11,246,4,0,1
+Jaime Alguersuari,Retired,35.0,178.0,0.0,0,31,0,0,0
+Bruno Senna,Retired,42.0,180.0,0.0,0,33,0,0,0
+Kamui Kobayashi,Retired,39.0,170.0,0.0,1,125,0,0,0
+Pastor Maldonado,Retired,40.0,175.0,1.0,1,76,1,0,0
+Vitaly Petrov,Retired,41.0,185.0,0.0,1,64,0,0,0
+Sebastien Buemi,Retired,37.0,168.0,0.0,0,29,0,0,0
+Adrian Sutil,Retired,42.0,183.0,0.0,0,124,0,0,1
+Paul di Resta,Retired,39.0,175.0,0.0,0,121,0,0,0
+Jean-Eric Vergne,Retired,35.0,178.0,0.0,0,51,0,0,0
+Stoffel Vandoorne,Retired,33.0,176.0,0.0,0,26,0,0,0
+Antonio Giovinazzi,Retired,32.0,183.0,0.0,0,21,0,0,0
+Mick Schumacher,Retired,26.0,176.0,0.0,0,12,0,0,0
+Nyck de Vries,Retired,42.0,169.0,0.0,0,2,0,0,0
+Logan Sargeant,Retired,25.0,183.0,0.0,0,1,0,0,0
+Jack Doohan,Alpine,42.0,175.0,0.0,0,0,0,0,0
+Isack Hadjar,Racing Bulls,21.0,177.0,0.0,0,0,0,0,0
+Andrea Kimi Antonelli,Mercedes,19.0,180.0,0.0,0,0,0,0,0

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+others_dir/*.npy
+others_dir/*.csv

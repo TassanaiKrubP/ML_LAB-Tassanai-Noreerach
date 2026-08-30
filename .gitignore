@@ -1,0 +1,17 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Datasets - ดาวน์โหลดเองตาม link-data.txt
+dataset/
+PetImages/
+*.zip
+
+# ผลลัพธ์ระหว่างทาง สร้างใหม่ได้ด้วยการรัน main.py
+*.npy
+*.pkl
+
+# VS Code
+.vscode/

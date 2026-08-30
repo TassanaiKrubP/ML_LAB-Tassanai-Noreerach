@@ -1,0 +1,9 @@
+Drone classification Dataset (AirplaneVsDroneVsBird)
+https://www.kaggle.com/datasets/maryamlsgumel/drone-detection-dataset
+
+Download the dataset and place the class folders under ML-04-KNN/dataset/
+so that the layout becomes:
+
+    ML-04-KNN/dataset/Aeroplanes/
+    ML-04-KNN/dataset/Birds/
+    ML-04-KNN/dataset/Drones/

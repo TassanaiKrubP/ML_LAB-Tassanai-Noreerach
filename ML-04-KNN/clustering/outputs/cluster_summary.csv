@@ -1,0 +1,9 @@
+true_class,cluster_0,cluster_1,cluster_2
+Aeroplanes,68,219,213
+Birds,221,148,131
+Drones,90,198,212
+
+cluster,size,purity
+0,379,0.5831
+1,565,0.3876
+2,556,0.3831

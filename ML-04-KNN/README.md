@@ -1,4 +1,4 @@
-# ML-04-K-Nearest Neighbors (KNN)
+# ML-04-K-Nearest Neighbors (KNN) (อัพแค่outputมา ส่วนdatasetไม่ได้เอาขึ้นมาด้วย)
 
 Build a simple KNN pipeline using Python, including image data loading, preprocessing, feature scaling, model training, evaluation, and prediction.
 

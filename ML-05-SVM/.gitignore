@@ -1,0 +1,10 @@
+﻿BirdVsDroneVsAirplane/
+PetImages/
+*.zip
+classification/outputs/*.npy
+classification/outputs/*.pkl
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+Thumbs.db

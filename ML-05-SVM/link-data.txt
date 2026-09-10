@@ -1,0 +1,13 @@
+ชุดข้อมูลที่ใช้ในใบงานที่ 5 (Support Vector Machine)
+
+ชื่อชุดข้อมูล : Dogs vs. Cats (PetImages)
+แหล่งดาวน์โหลด : https://www.microsoft.com/en-us/download/details.aspx?id=54765
+
+วิธีใช้
+1. ดาวน์โหลดและแตกไฟล์
+2. วางโฟลเดอร์ PetImages ไว้ที่ระดับเดียวกับโฟลเดอร์ classification/
+   ให้ได้โครงสร้าง  ML-05-SVM/PetImages/Cat/  และ  ML-05-SVM/PetImages/Dog/
+3. เข้าไปที่โฟลเดอร์ classification แล้วรัน  python main.py
+
+หมายเหตุ
+ไฟล์รูปภาพไม่ได้ถูกอัปโหลดขึ้น GitHub เนื่องจากมีขนาดใหญ่เกินขีดจำกัดของ repository

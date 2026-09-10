@@ -1,0 +1,19 @@
+# ===== ข้อมูลรูปภาพ ห้ามขึ้น GitHub =====
+BirdVsDroneVsAirplane/
+PetImages/
+*.zip
+
+# ===== ไฟล์ที่โค้ดสร้างขึ้นเองได้ =====
+classification/outputs/*.npy
+classification/outputs/*.keras
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== VS Code / ระบบปฏิบัติการ =====
+.vscode/
+.DS_Store
+Thumbs.db

@@ -62,9 +62,9 @@ python test_svm.py ..\PetImages\Cat\5.jpg
 
 | Kernel | Accuracy | เวลาเทรน (วินาที) |
 |---|---|---|
-| Linear | | |
-| Polynomial | | |
-| RBF | | |
+| Linear | 0.7709 | 0.41 |
+| Polynomial | 0.7207 | 0.01 |
+| RBF | 0.7933 | 0.02 |
 
 (กรอกตัวเลขจริงหลังรัน `main.py` เสร็จ)
 

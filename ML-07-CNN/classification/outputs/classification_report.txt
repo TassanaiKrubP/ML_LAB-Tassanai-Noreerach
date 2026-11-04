@@ -1,0 +1,12 @@
+Best CNN: conv4
+Test accuracy: 0.7993
+
+              precision    recall  f1-score   support
+
+  Aeroplanes     0.8991    0.8376    0.8673       117
+       Birds     0.6988    0.7632    0.7296        76
+      Drones     0.7683    0.7778    0.7730        81
+
+    accuracy                         0.7993       274
+   macro avg     0.7887    0.7928    0.7899       274
+weighted avg     0.8049    0.7993    0.8012       274

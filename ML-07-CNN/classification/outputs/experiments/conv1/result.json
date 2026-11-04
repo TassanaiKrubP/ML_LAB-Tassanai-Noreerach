@@ -1,0 +1,17 @@
+{
+  "name": "conv1",
+  "group": "conv_layers",
+  "n_conv": 1,
+  "filters": "32",
+  "dense_units": 128,
+  "kernel_size": 3,
+  "params": 5642,
+  "batch_size": 16,
+  "epochs_trained": 15,
+  "train_time_s": 90.1,
+  "sec_per_epoch": 6.0,
+  "best_val_accuracy": 0.6423,
+  "test_accuracy": 0.646,
+  "test_loss": 0.7909,
+  "checkpoints": {}
+}

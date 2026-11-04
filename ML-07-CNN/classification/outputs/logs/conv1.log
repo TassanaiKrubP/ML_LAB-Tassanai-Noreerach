@@ -1,0 +1,42 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793818060.600032   10004 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793818062.775244   10004 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[Run] conv1  filters=[32]  dense=128  kernel=3  epochs=15  early_stop=True  batch=16
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+จำนวนพารามิเตอร์ : 5,642
+D:\วา\ML_LAB-Tassanai-Noreerach\ML-07-CNN\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/15
+60/60 - 7s - 109ms/step - accuracy: 0.4451 - loss: 1.0487 - val_accuracy: 0.4818 - val_loss: 1.0458 - learning_rate: 0.0010
+Epoch 2/15
+60/60 - 5s - 89ms/step - accuracy: 0.5131 - loss: 0.9684 - val_accuracy: 0.5182 - val_loss: 1.0208 - learning_rate: 0.0010
+Epoch 3/15
+60/60 - 5s - 88ms/step - accuracy: 0.5455 - loss: 0.9474 - val_accuracy: 0.6058 - val_loss: 0.9974 - learning_rate: 0.0010
+Epoch 4/15
+60/60 - 5s - 86ms/step - accuracy: 0.5705 - loss: 0.9168 - val_accuracy: 0.5766 - val_loss: 0.9573 - learning_rate: 0.0010
+Epoch 5/15
+60/60 - 5s - 87ms/step - accuracy: 0.5653 - loss: 0.9270 - val_accuracy: 0.5912 - val_loss: 0.9155 - learning_rate: 0.0010
+Epoch 6/15
+60/60 - 5s - 89ms/step - accuracy: 0.5967 - loss: 0.8975 - val_accuracy: 0.5693 - val_loss: 0.8986 - learning_rate: 0.0010
+Epoch 7/15
+60/60 - 6s - 107ms/step - accuracy: 0.6040 - loss: 0.8920 - val_accuracy: 0.6058 - val_loss: 0.8830 - learning_rate: 0.0010
+Epoch 8/15
+60/60 - 6s - 107ms/step - accuracy: 0.6040 - loss: 0.8693 - val_accuracy: 0.6058 - val_loss: 0.8926 - learning_rate: 0.0010
+Epoch 9/15
+60/60 - 6s - 108ms/step - accuracy: 0.6207 - loss: 0.8726 - val_accuracy: 0.5912 - val_loss: 0.8764 - learning_rate: 0.0010
+Epoch 10/15
+60/60 - 7s - 117ms/step - accuracy: 0.6113 - loss: 0.8553 - val_accuracy: 0.6204 - val_loss: 0.8394 - learning_rate: 0.0010
+Epoch 11/15
+60/60 - 6s - 106ms/step - accuracy: 0.6270 - loss: 0.8304 - val_accuracy: 0.5985 - val_loss: 0.8588 - learning_rate: 0.0010
+Epoch 12/15
+60/60 - 7s - 111ms/step - accuracy: 0.6113 - loss: 0.8621 - val_accuracy: 0.6423 - val_loss: 0.8563 - learning_rate: 0.0010
+Epoch 13/15
+60/60 - 6s - 104ms/step - accuracy: 0.6343 - loss: 0.8263 - val_accuracy: 0.6131 - val_loss: 0.8729 - learning_rate: 0.0010
+Epoch 14/15
+60/60 - 6s - 98ms/step - accuracy: 0.6520 - loss: 0.8107 - val_accuracy: 0.6277 - val_loss: 0.8446 - learning_rate: 5.0000e-04
+Epoch 15/15
+60/60 - 6s - 94ms/step - accuracy: 0.6238 - loss: 0.8205 - val_accuracy: 0.6204 - val_loss: 0.8505 - learning_rate: 5.0000e-04
+Test accuracy : 0.6460   เวลาเทรน 90 วินาที
+WARNING:tensorflow:From D:\วา\ML_LAB-Tassanai-Noreerach\ML-07-CNN\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+

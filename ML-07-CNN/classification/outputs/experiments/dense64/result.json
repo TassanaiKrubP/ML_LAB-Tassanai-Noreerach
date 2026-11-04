@@ -1,0 +1,17 @@
+{
+  "name": "dense64",
+  "group": "neurons",
+  "n_conv": 3,
+  "filters": "32-64-128",
+  "dense_units": 64,
+  "kernel_size": 3,
+  "params": 102602,
+  "batch_size": 16,
+  "epochs_trained": 15,
+  "train_time_s": 170.3,
+  "sec_per_epoch": 11.35,
+  "best_val_accuracy": 0.7445,
+  "test_accuracy": 0.7664,
+  "test_loss": 0.6039,
+  "checkpoints": {}
+}

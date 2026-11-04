@@ -1,0 +1,14 @@
+{
+  "name": "conv4",
+  "group": "conv_layers",
+  "n_conv": 4,
+  "filters": "32-64-128-256",
+  "dense_units": 128,
+  "kernel_size": 3,
+  "params": 423626,
+  "epochs_trained": 15,
+  "train_time_s": 195.9,
+  "sec_per_epoch": 13.05,
+  "best_val_accuracy": 0.7883,
+  "test_accuracy": 0.7993
+}

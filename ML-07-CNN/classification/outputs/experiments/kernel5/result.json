@@ -1,0 +1,17 @@
+{
+  "name": "kernel5",
+  "group": "kernel",
+  "n_conv": 3,
+  "filters": "32-64-128",
+  "dense_units": 128,
+  "kernel_size": 5,
+  "params": 276426,
+  "batch_size": 16,
+  "epochs_trained": 15,
+  "train_time_s": 172.3,
+  "sec_per_epoch": 11.48,
+  "best_val_accuracy": 0.7299,
+  "test_accuracy": 0.7409,
+  "test_loss": 0.6173,
+  "checkpoints": {}
+}

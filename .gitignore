@@ -15,3 +15,20 @@ PetImages/
 
 # VS Code
 .vscode/
+
+# ===== Lab 7 / 8 / 10 =====
+# datasets (ดาวน์โหลดเอง ดู README ของแต่ละแล็ป)
+face-mask-data/
+**/datasets/
+**/yolo-dataset/
+# โมเดลและไฟล์กลางที่สร้างใหม่ได้
+*.keras
+*.h5
+*.pt
+*.npz
+runs/
+.venv*/
+**/outputs/experiments/**/weights/
+*.mp4
+*.avi
+Thumbs.db

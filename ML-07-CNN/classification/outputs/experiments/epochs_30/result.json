@@ -1,0 +1,43 @@
+{
+  "name": "epochs_30",
+  "group": "epochs",
+  "n_conv": 3,
+  "filters": "32-64-128",
+  "dense_units": 128,
+  "kernel_size": 3,
+  "params": 111050,
+  "batch_size": 16,
+  "epochs_trained": 30,
+  "train_time_s": 296.2,
+  "sec_per_epoch": 9.8,
+  "best_val_accuracy": 0.7664,
+  "test_accuracy": 0.7774,
+  "test_loss": 0.5753,
+  "checkpoints": {
+    "5": {
+      "test_accuracy": 0.540145993232727,
+      "test_loss": 0.9995450377464294,
+      "val_accuracy": 0.5328466892242432
+    },
+    "10": {
+      "test_accuracy": 0.6861313581466675,
+      "test_loss": 0.7307111024856567,
+      "val_accuracy": 0.6350364685058594
+    },
+    "15": {
+      "test_accuracy": 0.7481752038002014,
+      "test_loss": 0.608955442905426,
+      "val_accuracy": 0.7007299065589905
+    },
+    "20": {
+      "test_accuracy": 0.7773722410202026,
+      "test_loss": 0.5694952607154846,
+      "val_accuracy": 0.7153284549713135
+    },
+    "30": {
+      "test_accuracy": 0.7773722410202026,
+      "test_loss": 0.5753365159034729,
+      "val_accuracy": 0.7591241002082825
+    }
+  }
+}

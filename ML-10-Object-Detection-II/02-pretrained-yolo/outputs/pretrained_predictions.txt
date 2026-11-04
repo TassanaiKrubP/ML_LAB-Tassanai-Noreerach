@@ -1,0 +1,7 @@
+COCO classes: 80
+mask classes in COCO: none
+
+maksssksksss103.png: person 0.83, person 0.44, person 0.41, person 0.38, person 0.37, person 0.36, motorcycle 0.34, person 0.31, person 0.25
+maksssksksss120.png: person 0.91
+maksssksksss122.png: person 0.85, person 0.51
+maksssksksss125.png: person 0.94

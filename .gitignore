@@ -32,3 +32,5 @@ runs/
 *.mp4
 *.avi
 Thumbs.db
+!ML-10-Object-Detection-II/05-inference/outputs/annotated_video.mp4
+ML-10-Object-Detection-II/main.log

@@ -1,0 +1,8 @@
+# ติดตั้ง PyTorch แบบ CUDA ก่อน (ใช้ GPU ได้):
+#   uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
+ultralytics==8.4.202
+opencv-python
+matplotlib
+pyyaml

@@ -1,0 +1,4 @@
+split,images,with_mask,without_mask,mask_weared_incorrect
+train,597,2313,521,84
+val,170,650,158,30
+test,86,269,38,9

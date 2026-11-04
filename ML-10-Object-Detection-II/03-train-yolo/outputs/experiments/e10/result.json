@@ -1,0 +1,8 @@
+{
+  "run": "e10",
+  "group": "epochs",
+  "epochs": 10,
+  "imgsz": 640,
+  "batch": 16,
+  "train_time_s": 176.6
+}

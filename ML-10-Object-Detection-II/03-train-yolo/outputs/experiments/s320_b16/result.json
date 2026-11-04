@@ -1,0 +1,8 @@
+{
+  "run": "s320_b16",
+  "group": "config",
+  "epochs": 30,
+  "imgsz": 320,
+  "batch": 16,
+  "train_time_s": 211.6
+}

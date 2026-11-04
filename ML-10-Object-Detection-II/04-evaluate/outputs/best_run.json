@@ -1,0 +1,17 @@
+{
+  "run": "e60",
+  "group": "epochs",
+  "epochs": 60,
+  "imgsz": 640,
+  "batch": 16,
+  "precision": 0.8654,
+  "recall": 0.7495,
+  "mAP50": 0.8237,
+  "mAP50-95": 0.5728,
+  "AP50_with_mask": 0.9416,
+  "AP50_without_mask": 0.868,
+  "AP50_mask_weared_incorrect": 0.6614,
+  "best_val_mAP50-95": 0.5845,
+  "train_time_min": 14.3,
+  "alias_of": ""
+}

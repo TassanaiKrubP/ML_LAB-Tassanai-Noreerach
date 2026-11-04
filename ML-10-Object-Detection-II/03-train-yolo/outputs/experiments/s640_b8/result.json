@@ -1,0 +1,8 @@
+{
+  "run": "s640_b8",
+  "group": "config",
+  "epochs": 30,
+  "imgsz": 640,
+  "batch": 8,
+  "train_time_s": 481.9
+}

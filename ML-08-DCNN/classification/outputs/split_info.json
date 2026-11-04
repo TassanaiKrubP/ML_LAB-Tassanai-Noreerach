@@ -1,0 +1,11 @@
+{
+  "duplicates_removed": 586,
+  "per_class": [
+    582,
+    380,
+    406
+  ],
+  "train": 957,
+  "val": 137,
+  "test": 274
+}

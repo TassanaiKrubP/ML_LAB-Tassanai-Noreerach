@@ -1,0 +1,19 @@
+{
+  "name": "neurons_256_128",
+  "group": "neurons",
+  "description": "vgg_small with dense 256-128",
+  "kind": "scratch",
+  "arch": "vgg_small",
+  "input_size": 64,
+  "dense_units": "256-128",
+  "params": 2014378,
+  "trainable_params": 2011683,
+  "batch_size": 16,
+  "epochs_trained": 20,
+  "train_time_s": 219.0,
+  "sec_per_epoch": 10.94,
+  "best_val_accuracy": 0.8248,
+  "test_accuracy": 0.8394,
+  "test_loss": 0.4814,
+  "checkpoints": {}
+}

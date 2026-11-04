@@ -1,0 +1,22 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793824774.124244   14224 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793824776.710221   14224 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[Run] vgg16_finetune : transfer + unfreeze block5, LR 1e-5, +5 epochs  dense=[512, 256]  epochs=5  early_stop=True  batch=16
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+พารามิเตอร์ทั้งหมด 15,109,443  (เทรนได้ 7,474,179)
+D:\วา\ML_LAB-Tassanai-Noreerach\ML-07-CNN\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/5
+60/60 - 24s - 408ms/step - accuracy: 0.8422 - loss: 0.4545 - val_accuracy: 0.8248 - val_loss: 0.5218 - learning_rate: 1.0000e-05
+Epoch 2/5
+60/60 - 22s - 371ms/step - accuracy: 0.8673 - loss: 0.3877 - val_accuracy: 0.8321 - val_loss: 0.4833 - learning_rate: 1.0000e-05
+Epoch 3/5
+60/60 - 22s - 373ms/step - accuracy: 0.8537 - loss: 0.3856 - val_accuracy: 0.8175 - val_loss: 0.4561 - learning_rate: 1.0000e-05
+Epoch 4/5
+60/60 - 23s - 377ms/step - accuracy: 0.8767 - loss: 0.3551 - val_accuracy: 0.8321 - val_loss: 0.4771 - learning_rate: 1.0000e-05
+Epoch 5/5
+60/60 - 23s - 376ms/step - accuracy: 0.8892 - loss: 0.3150 - val_accuracy: 0.8175 - val_loss: 0.4832 - learning_rate: 1.0000e-05
+Test accuracy : 0.8759   เวลาเทรนรวม 392 วินาที
+WARNING:tensorflow:From D:\วา\ML_LAB-Tassanai-Noreerach\ML-07-CNN\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+

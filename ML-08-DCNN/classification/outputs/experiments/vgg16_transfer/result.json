@@ -1,0 +1,19 @@
+{
+  "name": "vgg16_transfer",
+  "group": "architecture",
+  "description": "VGG16 ImageNet, frozen + new head",
+  "kind": "transfer",
+  "arch": "vgg16",
+  "input_size": 96,
+  "dense_units": "512-256",
+  "params": 15109443,
+  "trainable_params": 394755,
+  "batch_size": 16,
+  "epochs_trained": 20,
+  "train_time_s": 277.9,
+  "sec_per_epoch": 13.87,
+  "best_val_accuracy": 0.8248,
+  "test_accuracy": 0.8686,
+  "test_loss": 0.3699,
+  "checkpoints": {}
+}

@@ -1,0 +1,12 @@
+Best DCNN: vgg_small
+Test accuracy: 0.8066
+
+              precision    recall  f1-score   support
+
+  Aeroplanes     0.8839    0.8462    0.8646       117
+       Birds     0.7500    0.7105    0.7297        76
+      Drones     0.7556    0.8395    0.7953        81
+
+    accuracy                         0.8066       274
+   macro avg     0.7965    0.7987    0.7966       274
+weighted avg     0.8088    0.8066    0.8067       274

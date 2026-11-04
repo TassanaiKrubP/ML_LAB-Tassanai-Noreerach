@@ -1,0 +1,19 @@
+{
+  "name": "vgg16_scratch",
+  "group": "architecture",
+  "description": "VGG16 layout from scratch (13 conv)",
+  "kind": "scratch",
+  "arch": "vgg16",
+  "input_size": 64,
+  "dense_units": "512-256",
+  "params": 15126346,
+  "trainable_params": 15117891,
+  "batch_size": 16,
+  "epochs_trained": 19,
+  "train_time_s": 902.8,
+  "sec_per_epoch": 47.5,
+  "best_val_accuracy": 0.8321,
+  "test_accuracy": 0.8029,
+  "test_loss": 0.5191,
+  "checkpoints": {}
+}

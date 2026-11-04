@@ -1,0 +1,65 @@
+﻿[Step 1] Loading and preprocessing images...
+  มี dataset.npz แล้ว ข้าม
+
+[Step 2] Removing duplicates and splitting train / val / test...
+  มี splits.npz แล้ว ข้าม
+
+[Step 3] Training all experiments (one subprocess per run)...
+  -- A. architecture --
+  ข้าม vgg_small (มีผลแล้ว)
+  ข้าม vgg16_scratch (มีผลแล้ว)
+  ข้าม vgg16_transfer (มีผลแล้ว)
+  ข้าม vgg16_finetune (มีผลแล้ว)
+  VGG เทรนเองที่ดีกว่า : vgg_small  -> ใช้ทดลองจำนวนนิวรอน
+  -- B. neurons --
+  ข้าม neurons_256_128 (มีผลแล้ว)
+  ข้าม neurons_128_64 (มีผลแล้ว)
+  โมเดลที่ใช้ทดลองจำนวน epoch : vgg_small
+  -- C. epochs --
+  ข้าม epochs_30 (มีผลแล้ว)
+บันทึก D:\วา\ML_LAB-Tassanai-Noreerach\ML-08-DCNN\classification\outputs\experiments.csv (7 การทดลอง)
+
+[Step 4] Evaluating the best model on the test set...
+  โมเดลที่ดีที่สุด (val accuracy สูงสุด) : vgg_small
+..\..\ML-07-CNN\.venv\Scripts\python.exe : WARNING: All log messages before absl::InitializeLog() is called are 
+written to STDERR
+At line:1 char:432
++ ... EVEL = "2"; ..\..\ML-07-CNN\.venv\Scripts\python.exe -u main.py *> ou ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: All lo...itten to STDERR:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+I0000 00:00:1793825752.397722   11012 port.cc:153] oneDNN custom operations are on. You may see slightly different 
+numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793825754.816357   11012 port.cc:153] oneDNN custom operations are on. You may see slightly different 
+numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if 
+CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+              precision    recall  f1-score   support
+
+  Aeroplanes     0.8839    0.8462    0.8646       117
+       Birds     0.7500    0.7105    0.7297        76
+      Drones     0.7556    0.8395    0.7953        81
+
+    accuracy                         0.8066       274
+   macro avg     0.7965    0.7987    0.7966       274
+weighted avg     0.8088    0.8066    0.8067       274
+
+
+[Step 5] Plotting comparison charts...
+  บันทึก compare_architectures.png
+  บันทึก compare_neurons.png
+  บันทึก accuracy_vs_epochs.png
+  บันทึก all_labs_comparison.png
+
+[Step 6] Predicting 4 random test images...
+  รูป  120  ทาย Aeroplanes   (92%)  จริง Aeroplanes
+  รูป   24  ทาย Birds        (74%)  จริง Birds
+  รูป  178  ทาย Drones       (93%)  จริง Birds
+  รูป  210  ทาย Drones       (100%)  จริง Drones
+  บันทึก prediction_sample.png
+
+เสร็จทั้งหมดใน 0.1 นาที

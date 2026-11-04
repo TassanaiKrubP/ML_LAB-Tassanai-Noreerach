@@ -1,0 +1,8 @@
+name,group,description,input_size,dense_units,params,trainable_params,batch_size,epochs_trained,train_time_s,sec_per_epoch,best_val_accuracy,test_accuracy
+vgg_small,architecture,VGG_SMALL from scratch (10 conv),64,512-256,2178986,2176291,16,20,219.5,10.97,0.8394,0.8066
+vgg16_scratch,architecture,VGG16 layout from scratch (13 conv),64,512-256,15126346,15117891,16,19,902.8,47.5,0.8321,0.8029
+vgg16_transfer,architecture,"VGG16 ImageNet, frozen + new head",96,512-256,15109443,394755,16,20,277.9,13.87,0.8248,0.8686
+vgg16_finetune,architecture,"transfer + unfreeze block5, LR 1e-5, +5 epochs",96,512-256,15109443,7474179,16,5,392.2,22.84,0.8321,0.8759
+neurons_256_128,neurons,vgg_small with dense 256-128,64,256-128,2014378,2011683,16,20,219.0,10.94,0.8248,0.8394
+neurons_128_64,neurons,vgg_small with dense 128-64,64,128-64,1956650,1953955,16,20,228.8,11.43,0.8321,0.8102
+epochs_30,epochs,"vgg_small trained 30 epochs, no early stopping",64,512-256,2178986,2176291,16,30,337.1,11.15,0.8467,0.7664

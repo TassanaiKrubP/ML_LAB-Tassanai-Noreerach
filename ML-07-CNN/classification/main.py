@@ -30,8 +30,11 @@ import plot_result
 
 def pick_best(rows):
     """เลือกจาก validation accuracy (ไม่ใช้ test เลือก เพื่อให้คะแนน test ยังเป็นกลาง)
-    ถ้าเท่ากัน เลือกตัวที่พารามิเตอร์น้อยกว่า"""
-    best = max(rows, key=lambda r: (r["best_val_accuracy"], -r["params"]))
+    ถ้าเท่ากัน เลือกตัวที่พารามิเตอร์น้อยกว่า
+    ไม่นับการทดลอง epoch เพราะไม่มี EarlyStopping โมเดลที่บันทึกคือ epoch สุดท้าย
+    ไม่ใช่ epoch ที่ val accuracy สูงสุด"""
+    candidates = [r for r in rows if r["group"] != "epochs"]
+    best = max(candidates, key=lambda r: (r["best_val_accuracy"], -r["params"]))
     with open(os.path.join(OUTPUT_DIR, "best_model.json"), "w", encoding="utf-8") as f:
         json.dump(best, f, indent=2)
     return best["name"]

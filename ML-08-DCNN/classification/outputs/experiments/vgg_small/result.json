@@ -1,0 +1,19 @@
+{
+  "name": "vgg_small",
+  "group": "architecture",
+  "description": "VGG_SMALL from scratch (10 conv)",
+  "kind": "scratch",
+  "arch": "vgg_small",
+  "input_size": 64,
+  "dense_units": "512-256",
+  "params": 2178986,
+  "trainable_params": 2176291,
+  "batch_size": 16,
+  "epochs_trained": 20,
+  "train_time_s": 219.5,
+  "sec_per_epoch": 10.97,
+  "best_val_accuracy": 0.8394,
+  "test_accuracy": 0.8066,
+  "test_loss": 0.4921,
+  "checkpoints": {}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "vgg16_finetune",
+  "group": "architecture",
+  "description": "transfer + unfreeze block5, LR 1e-5, +5 epochs",
+  "kind": "finetune",
+  "arch": "vgg16",
+  "input_size": 96,
+  "dense_units": "512-256",
+  "params": 15109443,
+  "trainable_params": 7474179,
+  "batch_size": 16,
+  "epochs_trained": 5,
+  "train_time_s": 392.2,
+  "sec_per_epoch": 22.84,
+  "best_val_accuracy": 0.8321,
+  "test_accuracy": 0.8759,
+  "test_loss": 0.373,
+  "checkpoints": {}
+}

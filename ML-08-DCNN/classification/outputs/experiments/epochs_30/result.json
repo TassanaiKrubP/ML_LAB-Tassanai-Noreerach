@@ -1,0 +1,45 @@
+{
+  "name": "epochs_30",
+  "group": "epochs",
+  "description": "vgg_small trained 30 epochs, no early stopping",
+  "kind": "scratch",
+  "arch": "vgg_small",
+  "input_size": 64,
+  "dense_units": "512-256",
+  "params": 2178986,
+  "trainable_params": 2176291,
+  "batch_size": 16,
+  "epochs_trained": 30,
+  "train_time_s": 337.1,
+  "sec_per_epoch": 11.15,
+  "best_val_accuracy": 0.8467,
+  "test_accuracy": 0.7664,
+  "test_loss": 0.6423,
+  "checkpoints": {
+    "5": {
+      "test_accuracy": 0.29197078943252563,
+      "test_loss": 1.4742326736450195,
+      "val_accuracy": 0.2846715450286865
+    },
+    "10": {
+      "test_accuracy": 0.7408758997917175,
+      "test_loss": 0.6863305568695068,
+      "val_accuracy": 0.7080292105674744
+    },
+    "15": {
+      "test_accuracy": 0.7992700934410095,
+      "test_loss": 0.5212275385856628,
+      "val_accuracy": 0.8102189898490906
+    },
+    "20": {
+      "test_accuracy": 0.7810218930244446,
+      "test_loss": 0.6690474152565002,
+      "val_accuracy": 0.7299270033836365
+    },
+    "30": {
+      "test_accuracy": 0.7664233446121216,
+      "test_loss": 0.6422737240791321,
+      "val_accuracy": 0.7591241002082825
+    }
+  }
+}
